@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from './components/nav'
+import Body from './components/body'
 import { BrowserRouter } from 'react-router-dom'
 import './App.css'
 
@@ -8,7 +9,7 @@ function App() {
     <>
     <BrowserRouter>
     <Nav />
-    
+    <Body />
     
     </BrowserRouter>
     
