@@ -50,9 +50,44 @@
     color: white;
     font-style: italic;
     font-size: 20px;
+    
+}
+.job-text {
+  font-size: 30px;
+  background-image: linear-gradient(to right, transparent 50%, #f95959 50%);
+  background-origin: 0;
+  background-size: 200% 45%;
+  background-repeat: repeat-x;
+  background-position: 0 100%;
+  transition: background-position 0.5s;
+  background-position: -100% 100%;
+    
 }
 
 .name:hover {
     transform: scale(0.9);
     color: #f95959;
+}
+
+.github {
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    left: 45%;    
+    transition: transform 0.3s;
+}
+
+.linkedin {
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    left: 50%; 
+    transition: transform 0.3s;
+}
+
+.github:hover {
+    transform: scale(1.1);
+}
+.linkedin:hover {
+    transform: scale(1.1);
 }
