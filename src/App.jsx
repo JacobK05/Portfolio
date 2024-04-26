@@ -1,5 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './pages/pages.css'
 import Nav from './components/nav';
 import Footer from './components/footer'
 import Body from './components/body';

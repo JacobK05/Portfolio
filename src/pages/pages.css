@@ -22,14 +22,14 @@
 
 .resume {
     margin-top: 150px;
-    text-align: center;
 }
 
 .resumeH1{
     color: white;
-    padding: 20px;
+    padding: 15px;
     padding-bottom: 0;
     font-size: 50px;
+    text-align: center;
 }
 
 .resume-link {
@@ -40,30 +40,68 @@
 }
 
 .resume-link:hover {
-    transform: scale(1.2);
-    color: #f95959;
+    font-size: 50px;
+    background-image: linear-gradient(to right, transparent 50%, #f95959 50%);
+    background-origin: 0;
+    background-size: 200% 45%;
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+    transition: background-position 0.5s;
+    background-position: -100% 100%;
+      
+   
 }
 
 .frontH1 {
     color: white;
-    padding: 20px;
     font-size: 20px;
     font-size: 30px;
+    text-align: center;
 }
  
 .skill-list{
  color: white ;
- padding: 20px;
+ padding: 10px;
  font-size: 20px;
+ text-align: center;
+ 
  
 }
 
 .resume-ul {
     list-style-type: none;
+    
 }
 .backH1 {
+    text-align: center;
     color: white;
-    padding: 20px;
     font-size: 20px;
     font-size: 30px;
+}
+h3{
+    margin-top: 200px;
+    color: white;
+    padding: 20px;
+    font-family: monospace;
+}
+
+h4 {
+ color: white;
+ font-family: monospace;
+ padding: 20px;
+}
+.card {
+    background-color: #393e46;
+    border: none;
+}
+
+.images {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    transition: transform 0.3s;
+   }
+
+.images:hover {
+    transform: scale(1.1);
 }
