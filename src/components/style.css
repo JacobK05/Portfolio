@@ -47,12 +47,17 @@
 
 .name-text {
     padding-left: 150px;
+    padding-top: 10px;
     color: white;
     font-style: italic;
     font-size: 20px;
-    
+    font-weight: 200;
+        
 }
+
 .job-text {
+  
+  color: white;
   font-size: 30px;
   background-image: linear-gradient(to right, transparent 50%, #f95959 50%);
   background-origin: 0;
@@ -61,6 +66,7 @@
   background-position: 0 100%;
   transition: background-position 0.5s;
   background-position: -100% 100%;
+  text-decoration: none;
     
 }
 
