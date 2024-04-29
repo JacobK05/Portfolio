@@ -90,6 +90,20 @@ h4 {
  font-family: monospace;
  padding: 20px;
 }
+
+.project-title{
+    text-decoration: none;
+}
+
+.project-h4 {
+    transition: transform 0.3s;
+}
+
+.project-h4:hover {
+    color: #f95959;
+    transform: scale(1.1);
+}
+
 .card {
     background-color: #393e46;
     border: none;

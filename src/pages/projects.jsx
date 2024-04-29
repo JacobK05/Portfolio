@@ -17,7 +17,9 @@ export default function PortfolioPage() {
               </a>
             </p>
             <div className="text-block">
-              <h4>{project.name}</h4>
+              <a className="project-title" href={project.link}> 
+              <h4 className="project-h4">{project.name}</h4>
+              </a>
             </div>
           </div>
         ))}
