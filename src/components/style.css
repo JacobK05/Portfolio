@@ -71,7 +71,7 @@
 }
 
 .name:hover {
-    transform: scale(0.9);
+    transform: scale(1.05);
     color: #f95959;
 }
 
